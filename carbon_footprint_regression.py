@@ -85,3 +85,4 @@ vif["features"] = data.columns[:-1]  # 마지막 열은 종속 변수이므로 �
 print(vif)
 
 print(linearregression.coef_)
+# 16.39
