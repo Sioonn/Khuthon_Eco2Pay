@@ -1,1 +1,2 @@
-word_embedding_model.bin
+model/word_embedding_model.bin
+__pycache__
