@@ -2,6 +2,7 @@ from create_embedding import create_embedding_vector
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from oil import calculate_co2_emission
+from heating_bill import heating_bill
 
 oil_type = '휘발유'
 data = [
@@ -68,9 +69,10 @@ for i in range(len(data)):
     if payment_institution == '한국전력공사': 
         continue 
     elif payment_institution == '지역난방':
-        continue
+        heating_bill(payment_institution[3].value(), contract_area = 32)
     emb_vec_list.append(create_embedding_vector(payment_institution))
     # embeded_vec = create_embedding_vector(payment_institution)
     # emb_vec_list.append(embeded_vec)
     embeded_vec = create_embedding_vector(payment_institution)
     emb_vec_list.append(embeded_vec)
+    
