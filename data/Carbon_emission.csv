@@ -12,7 +12,7 @@ underweight,female,pescatarian,daily,wood,public,,often,135,rarely,440,extra lar
 normal,female,vegetarian,more frequently,wood,public,,never,146,never,1561,extra large,4,12,27,21,No,"['Paper', 'Plastic']","['Stove', 'Microwave']",1427
 obese,male,vegetarian,more frequently,coal,walk/bicycle,,never,111,very frequently,69,medium,5,9,4,4,Sometimes,[],"['Stove', 'Oven', 'Microwave']",3226
 underweight,female,omnivore a day,coal,walk/bicycle,,often,114,rarely,92,large,3,18,27,4,Yes,['Plastic'],['Stove'],1593
-underweight,female,vegan,le,twicess frequently,electricity,private,lpg,sometimes,111,rarely,2893,large,6,13,16,10,Sometimes,"['Plastic', 'Glass', 'Metal']","['Stove', 'Oven', 'Microwave', 'Grill', 'Airfryer']",1732
+underweight,female,vegan,less frequently,electricity,private,lpg,sometimes,111,rarely,2893,large,6,13,16,10,Sometimes,"['Plastic', 'Glass', 'Metal']","['Stove', 'Oven', 'Microwave', 'Grill', 'Airfryer']",1732
 obese,male,pescatarian,less frequently,natural gas,public,,often,123,rarely,1989,small,6,13,23,8,No,"['Paper', 'Plastic', 'Metal']","['Stove', 'Oven']",1743
 overweight,female,vegetarian,less frequently,electricity,public,,never,225,very frequently,692,small,6,9,24,15,No,"['Paper', 'Plastic', 'Glass', 'Metal']","['Stove', 'Oven']",2101
 normal,male,pescatarian,more frequently,electricity,walk/bicycle,,often,219,frequently,7,extra large,4,23,42,14,Sometimes,[],"['Oven', 'Microwave', 'Grill', 'Airfryer']",2609
