@@ -5,7 +5,7 @@ import fasttext.util
 from sklearn.metrics.pairwise import cosine_similarity
 
 def word_embedding(word_name):
-    model_path = "word_embedding_model.bin"
+    model_path = "./model/word_embedding_model.bin"
     word_model = fasttext.load_model(model_path)
     return word_model.get_word_vector(word_name)
 
