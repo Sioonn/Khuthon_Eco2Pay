@@ -1,9 +1,13 @@
 from create_embedding import create_embedding_vector
 from oil import calculate_co2_emission
+<<<<<<< HEAD
 from carbon_footprint_regression import co2_per_clothes
 from ingredient_prediction_model import MultiClassModel
 from electric import calculate_electricity_usage_and_co2_emission
 from hit import heating_bill
+=======
+from heating_bill import heating_bill
+>>>>>>> a91bfbd0284ffb3581eb7b42cf3282079ee9bcfb
 
 import fasttext
 import torch
