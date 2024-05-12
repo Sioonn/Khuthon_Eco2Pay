@@ -40,5 +40,3 @@ diesel_co2_emission = calculate_co2_emission(payment_amount, fuel_type='경유')
 
 print("휘발유에서의 이산화탄소 배출량 (kg):", petrol_co2_emission)
 print("경유에서의 이산화탄소 배출량 (kg):", diesel_co2_emission)
-
-
