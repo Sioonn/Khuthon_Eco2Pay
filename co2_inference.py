@@ -1,10 +1,9 @@
-from create_embedding import create_embedding_vector
-from oil import calculate_co2_emission
-from carbon_footprint_regression import co2_per_clothes
-from ingredient_prediction_model import MultiClassModel
-from electric import calculate_electricity_usage_and_co2_emission
-from hit import heating_bill
 
+from categorical_method.oil import calculate_co2_emission
+from categorical_method.clothes import co2_per_clothes
+from categorical_method.electric import calculate_electricity_usage_and_co2_emission
+from categorical_method.hit import heating_bill
+from model.ingredient_prediction_model import MultiClassModel
 
 import fasttext
 import torch
